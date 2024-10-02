@@ -24,6 +24,7 @@ set si
 set guifont=CaskaydiaCove\ NF\ 16
 set shell=/usr/bin/fish
 let g:airline_theme = 'catppuccin_mocha'
+colorscheme catppuccin_mocha
 
 nnoremap <C-A> ggVG
 inoremap { {}<Left>
