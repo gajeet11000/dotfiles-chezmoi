@@ -31,12 +31,12 @@ qt5-webview
 qt5ct
 qt6ct
 sddm
+cronie
 
 # AUR packages
 bibata-rainbow-cursor-theme
 catppuccin-gtk-theme-mocha
 visual-studio-code-bin
-google-chrome
 pamac-aur
 slack-desktop
 balena-etcher
@@ -49,6 +49,9 @@ slack-desktop
 stacer-bin
 sublime-text-4
 zoho-mail-desktop
+dropbox
+dropbox-cli
+brave-bin
 
 # Network Utils
 network-manager-applet
