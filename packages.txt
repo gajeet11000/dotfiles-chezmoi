@@ -105,3 +105,9 @@ vim
 gimp
 wl-clipboard
 wlogout
+
+# Dependencies
+qt6-svg
+qt6-declarative
+qt5-quickcontrols2
+
