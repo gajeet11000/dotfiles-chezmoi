@@ -32,6 +32,7 @@ qt5ct
 qt6ct
 sddm
 cronie
+swaync
 
 # AUR packages
 bibata-rainbow-cursor-theme
@@ -105,6 +106,8 @@ vim
 gimp
 wl-clipboard
 wlogout
+hyprlock
+hypridle
 
 # Dependencies
 qt6-svg
