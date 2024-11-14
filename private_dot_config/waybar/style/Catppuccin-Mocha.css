@@ -161,21 +161,22 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-	color: @overlay0;
+	color: @lavender;
     box-shadow: none;
 	text-shadow: none;
     padding: 0 4px 0 4px;
+	border: 1px dashed @lavender;
     border-radius: 10px;
 	margin-right: 6px;
 }
 
 #workspaces button:hover {
-	border-radius: 10px;
 	color: @overlay0;
 	background-color: @surface0;
 }
 
 /* non-empty workspaces */
+
 #workspaces button.persistent {
 	color: @lavender;
 	border: 1px dashed @lavender;
@@ -193,6 +194,7 @@ window#waybar.hidden {
 	border: 1px dotted @overlay0;
 }
 
+#workspaces button.visible,
 #workspaces button.active {
 	color: @base;
 	background-color: @teal;
