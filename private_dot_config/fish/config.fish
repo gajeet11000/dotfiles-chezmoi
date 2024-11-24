@@ -5,7 +5,7 @@ set -U fish_greeting
 
 # Utilities 
 alias c="clear"
-alias ls="lsd -1 -hal --blocks permission,user,size,name --group-dirs=first"
+alias ll="lsd -1 -hal --blocks permission,user,size,name --group-dirs=first"
 alias btop="btop --utf-force"
 
 # Package Manager
