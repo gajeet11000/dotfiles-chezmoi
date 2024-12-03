@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-wallpapers=($(ls -d /mnt/Storage/PHOTOS/Wallpapers/*))
+wallpapers=($(ls -d /mnt/Storage/PHOTOS/Wallpapers/* | sed 's/ /\\ /g'))
 wall=${wallpapers[ $RANDOM % ${#wallpapers[@]} ]}
 
 
