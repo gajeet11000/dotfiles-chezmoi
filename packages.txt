@@ -39,20 +39,17 @@ bibata-rainbow-cursor-theme
 catppuccin-gtk-theme-mocha
 visual-studio-code-bin
 pamac-aur
-slack-desktop
 balena-etcher
 insomnia-bin
 kvantum-theme-catppuccin-git
 masterpdfeditor-free
 papirus-folders-catppuccin-git
-proton-vpn-gtk-app
 slack-desktop
 stacer-bin
 sublime-text-4
 zoho-mail-desktop
 dropbox
 dropbox-cli
-brave-bin
 
 # Network Utils
 network-manager-applet
@@ -68,6 +65,7 @@ bluez-utils
 
 # Applications
 xarchiver
+chromium
 redis
 obsidian
 nwg-look
