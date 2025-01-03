@@ -50,6 +50,7 @@ sublime-text-4
 zoho-mail-desktop
 dropbox
 dropbox-cli
+gammastep-wayland-git
 
 # Network Utils
 network-manager-applet
