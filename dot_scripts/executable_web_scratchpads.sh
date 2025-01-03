@@ -15,7 +15,7 @@ window=$(hyprctl clients | grep -i "$window_title")
 
 # If the window is not open, launch the application (specific URLs or commands can be added as needed)
 if [ -z "$window" ]; then
-    brave --password-store=basic --app="https://$window_title" &
+    $BROWSER --app="https://$window_title" &
 fi
 
 # Toggle the special workspace for the specified application

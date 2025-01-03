@@ -11,14 +11,10 @@ set_wallpaper_xfce() {
 
 set_wallpaper_hyprland() {
 	BG="$(find "$dir" -name '*.jpg' -o -name '*.png' | shuf -n1)"
-	PROGRAM="swww-daemon"
+	PROGRAM="swww"
 	trans_type="simple"
 
-	if pgrep "$PROGRAM" >/dev/null; then
-		swww img "$BG" --transition-fps 244 --transition-type $trans_type --transition-duration 1
-	else
-		$PROGRAM && swww img "$BG" --transition-fps 244 --transition-type $trans_type --transition-duration 1
-	fi
+	$PROGRAM img "$BG" --transition-fps 244 --transition-type $trans_type --transition-duration 0.4
 }
 
 set_wallpaper_other() {
