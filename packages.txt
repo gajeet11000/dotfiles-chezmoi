@@ -51,6 +51,7 @@ zoho-mail-desktop
 dropbox
 dropbox-cli
 gammastep-wayland-git
+superfile-bin
 
 # Network Utils
 network-manager-applet
@@ -107,6 +108,7 @@ wl-clipboard
 wlogout
 hyprlock
 hypridle
+tumbler
 
 # Dependencies
 qt6-svg
