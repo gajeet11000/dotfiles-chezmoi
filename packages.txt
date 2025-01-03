@@ -33,6 +33,7 @@ qt6ct
 sddm
 cronie
 swaync
+swww
 
 # AUR packages
 bibata-rainbow-cursor-theme
