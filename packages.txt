@@ -1,10 +1,13 @@
-# Fonts
 awesome-terminal-fonts
 otf-font-awesome
 ttf-cascadia-code
 ttf-cascadia-code-nerd
-
-# Essentials
+ttf-ubuntu-font-family
+baobab
+xwallpaper
+imv
+sxiv
+htop
 lsd
 base-devel
 bat
@@ -16,6 +19,8 @@ polkit-gnome
 btop
 unrar
 pavucontrol
+volumeicon
+gnome-calculator
 p7zip
 xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
@@ -34,13 +39,10 @@ sddm
 cronie
 swaync
 swww
-
-# AUR packages
 bibata-rainbow-cursor-theme
 catppuccin-gtk-theme-mocha
 visual-studio-code-bin
 pamac-aur
-balena-etcher
 insomnia-bin
 kvantum-theme-catppuccin-git
 masterpdfeditor-free
@@ -53,20 +55,18 @@ dropbox
 dropbox-cli
 gammastep-wayland-git
 superfile-bin
-
-# Network Utils
+picom-simpleanims-git
+postman-bin
+anydesk-bin
+video-downloader
 network-manager-applet
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 nm-connection-editor
-
-# Bluetooth
 blueman
 bluez
 bluez-utils
-
-# Applications
 xarchiver
 chromium
 redis
@@ -103,15 +103,14 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 waybar
-vim
+neovim
 gimp
 wl-clipboard
 wlogout
 hyprlock
 hypridle
 tumbler
-
-# Dependencies
+jdk17-openjdk
 qt6-svg
 qt6-declarative
 qt5-quickcontrols2
