@@ -20,3 +20,8 @@ bind -M insert -m default ii backward-char force-repaint
 bind -M insert \ef accept-autosuggestion
 
 starship init fish | source
+
+set -gx PATH $HOME/.pyenv/bin $PATH
+status --is-interactive; and . (pyenv init --path | psub)
+status --is-interactive; and . (pyenv init - | psub)
+status --is-interactive; and . (pyenv virtualenv-init - | psub)

@@ -55,6 +55,7 @@ dropbox
 dropbox-cli
 gammastep-wayland-git
 superfile-bin
+rofi-greenclip
 picom-simpleanims-git
 postman-bin
 anydesk-bin

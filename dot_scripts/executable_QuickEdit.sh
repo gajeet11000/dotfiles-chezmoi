@@ -41,7 +41,7 @@ main() {
 
     # Open the selected file in the terminal with the text editor
     $tty -e $file
-    chezmoi apply
+    chezmoi apply &
 }
 
 main
