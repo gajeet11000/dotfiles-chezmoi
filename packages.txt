@@ -60,6 +60,7 @@ picom-simpleanims-git
 postman-bin
 anydesk-bin
 video-downloader
+riseup-vpn
 network-manager-applet
 networkmanager
 networkmanager-openconnect
