@@ -120,12 +120,12 @@ format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
 
 [git_status]
 style = "bg:teal"
-ahead = " ⇡${count}"
-diverged = " ⇡${ahead_count}⇣${behind_count}"
-behind = " ⇣${count}"
-modified = " !${count}"
-untracked = " ?${count}"
-staged = " +${count}"
+ahead = "⇡${count}"
+diverged = "⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+modified = "!${count}"
+untracked = "?${count}"
+staged = "+${count}"
 format = '[[($untracked$modified$staged$ahead$behind)](fg:base bg:green)]($style)'
 
 [nodejs]
